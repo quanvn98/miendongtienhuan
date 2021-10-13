@@ -1,50 +1,57 @@
 .food-item {
-    display: flex;
+  display: flex;
 }
 
 .food-item.vertical {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .food-item .food-viewport {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .food-item.vertical .food-viewport {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .food-item.horizontal .food-viewport {
-    min-width: 190px;
-    margin-right: 10px;
+  min-width: 190px;
+  margin-right: 10px;
+  height: fit-content;
 }
 
 .food-item .food-viewport::before {
-    content: '';
-    display: block;
-    padding-top: 62%;
+  content: "";
+  display: block;
+  padding-top: 62%;
 }
 
 .food-item .food-viewport img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 0.4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s;
 }
 
 .food-item .food-viewport:hover img {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .food-item .content .title {
-    font-weight: 700;
-    color: #ffa500;
+  font-weight: 700;
+  color: #ffa500;
 }
 
 .food-item .content .description {
-    line-height: 1.2;
+  line-height: 1.2;
+}
+
+@media (max-width: 575.98px) {
+  .food-item.horizontal .food-viewport {
+    min-width: 150px;
+  }
 }

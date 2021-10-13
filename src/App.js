@@ -12,7 +12,7 @@ import { ScrollTop } from './scroll-top/ScrollTop';
 import { Section } from './common/Section';
 import { AboutUs } from './about-us/AboutUs';
 import { Gallery } from './gallery/Gallery';
-// import { Food } from './food/Food';
+import { Food } from './food/Food';
 import { Contact } from './contact/Contact';
 import { Footer } from './footer/Footer';
 
@@ -31,9 +31,9 @@ function App() {
       <Section header='hình ảnh về sản phẩm' id="gallery-section">
         <Gallery />
       </Section>
-      {/* <Section header='món ngon từ miến dong' id="food-section">
+      <Section header='món ngon từ miến dong' id="food-section">
         <Food />
-      </Section> */}
+      </Section>
       <Section header='liên hệ với chúng tôi' id="contact-section">
         <Contact />
       </Section>
