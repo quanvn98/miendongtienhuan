@@ -9,7 +9,7 @@ export function Contact() {
     <div className="container contact">
       <form onSubmit={formSubmit}>
         <div className="row">
-          <div className="col-6 offset-3">
+          <div className="col-12 col-sm-6 offset-sm-3">
             <div className="input-group mb-3">
               <span className="input-group-text">
                 <i className="fas fa-user"></i>
@@ -19,7 +19,7 @@ export function Contact() {
           </div>
         </div>
         <div className="row">
-          <div className="col-6 offset-3">
+          <div className="col-12 col-sm-6 offset-sm-3">
             <div className="input-group mb-3">
               <span className="input-group-text">
                 <i className="fas fa-map-marker-alt"></i>
@@ -29,7 +29,7 @@ export function Contact() {
           </div>
         </div>
         <div className="row">
-          <div className="col-3 offset-3">
+          <div className="col-6 col-sm-3 offset-sm-3">
             <div className="input-group mb-3">
               <span className="input-group-text">
                 <i className="fas fa-phone-alt"></i>
@@ -37,7 +37,7 @@ export function Contact() {
               <input type="text" className="form-control" placeholder="Điện thoại" />
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-6 col-sm-3">
             <div className="input-group mb-3">
               <span className="input-group-text">
                 <i className="fas fa-envelope"></i>
@@ -47,7 +47,7 @@ export function Contact() {
           </div>
         </div>
         <div className="row">
-          <div className="col-6 offset-3">
+          <div className="col-12 col-sm-6 offset-sm-3">
             <div className="input-group mb-3">
               <span className="input-group-text">
                 <i className="fas fa-question"></i>
