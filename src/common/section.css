@@ -1,0 +1,38 @@
+.section {
+    margin-bottom: 60px;
+}
+
+.section-header {
+    color: #008000;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 7px;
+    background: url('./images/header-bg.png') center bottom no-repeat;
+}
+
+.section-header span {
+    display: inline-block;
+}
+
+.section-header span::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f005";
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.section-header span::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f005";
+    line-height: 40px;
+    margin-left: 10px;
+}

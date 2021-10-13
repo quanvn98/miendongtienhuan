@@ -1,0 +1,17 @@
+.footer {
+    padding: 30px;
+    background-color: #008000;
+    color: #fff;
+}
+
+.footer-header {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-header span {
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}

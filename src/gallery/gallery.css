@@ -1,0 +1,19 @@
+.gallery-item {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.gallery-item::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.gallery-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
