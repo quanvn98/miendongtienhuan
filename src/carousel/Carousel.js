@@ -18,22 +18,22 @@ export function Carousel() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={slide1} className="d-block w-100" alt="slide 1" style={{ height: 'calc(100vh - 262px)', objectFit: 'cover' }} />
+          <img src={slide1} className="d-block w-100" alt="slide 1" />
         </div>
         <div className="carousel-item">
-          <img src={slide2} className="d-block w-100" alt="slide 2" style={{ height: 'calc(100vh - 262px)', objectFit: 'cover' }} />
+          <img src={slide2} className="d-block w-100" alt="slide 2" />
         </div>
         <div className="carousel-item">
-          <img src={slide3} className="d-block w-100" alt="slide 3" style={{ height: 'calc(100vh - 262px)', objectFit: 'cover' }} />
+          <img src={slide3} className="d-block w-100" alt="slide 3" />
         </div>
         <div className="carousel-item">
-          <img src={slide4} className="d-block w-100" alt="slide 4" style={{ height: 'calc(100vh - 262px)', objectFit: 'cover' }} />
+          <img src={slide4} className="d-block w-100" alt="slide 4" />
         </div>
         <div className="carousel-item">
-          <img src={slide5} className="d-block w-100" alt="slide 5" style={{ height: 'calc(100vh - 262px)', objectFit: 'cover' }} />
+          <img src={slide5} className="d-block w-100" alt="slide 5" />
         </div>
         <div className="carousel-item">
-          <img src={slide6} className="d-block w-100" alt="slide 6" style={{ height: 'calc(100vh - 262px)', objectFit: 'cover' }} />
+          <img src={slide6} className="d-block w-100" alt="slide 6" />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

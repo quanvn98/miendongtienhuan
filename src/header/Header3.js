@@ -15,7 +15,7 @@ export function Header3() {
   return (
     <div className="header-3">
       <div className="container d-flex align-items-center">
-        <ul>
+        <ul className="menu">
           <li>
             <a href="#home" onClick={scrollToElement}>
               TRANG CHỦ

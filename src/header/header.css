@@ -11,6 +11,10 @@
   height: 32px;
 }
 
+.header-1 .phone {
+  margin-right: 15px;
+}
+
 .header-1 .header-icon {
   width: 24px;
   height: 24px;
@@ -30,11 +34,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 185px;
+  /* height: 185px; */
 }
 
 .header-2 .logo {
   width: 225px;
+}
+
+.header-2 .p1 {
+  font-size: 46px;
+  color: #008000;
+}
+.header-2 .p2 {
+  font-size: 40px;
+  color: #ff0000;
+}
+.header-2 .p3 {
+  font-size: 34px;
+  color: #ffa500;
 }
 
 .header-2 .phone {
@@ -81,4 +98,57 @@
 .header-3 li a {
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  .header-1 .phone {
+    margin-right: 5px;
+    font-size: 10px;
+  }
+
+  .header-1 .address {
+    font-size: 10px;
+  }
+
+  .header-1 .header-icon {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .header-2 .container {
+    flex-wrap: wrap;
+  }
+
+  .header-2 .container > * {
+    margin: 0 auto;
+  }
+
+  .header-2 .container img {
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  .header-2 .p1 {
+    font-size: 26px;
+  }
+  .header-2 .p2 {
+    font-size: 22px;
+  }
+  .header-2 .p3 {
+    font-size: 18px;
+  }
+
+  .header-2 .phone {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .header-3 .menu {
+    font-size: 10px;
+  }
+
+  .header-3 .menu li {
+    padding: 0 8px;
+  }
 }

@@ -4,11 +4,11 @@ export function Header1() {
   return (
     <div className="header-1">
       <div className="container">
-        <div className="d-flex align-items-center me-3">
+        <div className="d-flex align-items-center phone">
           <i className="fas fa-phone-volume me-1"></i>
           <p className="m-0">0355 111 616</p>
         </div>
-        <div className="d-flex align-items-center me-3">
+        <div className="d-flex align-items-center address">
           <i className="fas fa-map-marker me-1"></i>
           <p className="m-0">Cộng Hòa, Quốc Oai, Hà Nội</p>
         </div>
