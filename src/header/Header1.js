@@ -2,7 +2,7 @@ import "./header.css";
 
 export function Header1() {
   return (
-    <div className="header-1">
+    <div className="header-1" id="header-1">
       <div className="container">
         <div className="d-flex align-items-center phone">
           <i className="fas fa-phone-volume me-1"></i>

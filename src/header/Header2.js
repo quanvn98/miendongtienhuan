@@ -3,7 +3,7 @@ import logo from "./images/logo.jpg";
 
 export function Header2() {
   return (
-    <div className="header-2">
+    <div className="header-2" id="header-2">
       <div className="container">
         <img src={logo} alt="logo" className="logo"></img>
         <div
