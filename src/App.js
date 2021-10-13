@@ -28,10 +28,10 @@ function App() {
       <Section header='về chúng tôi' id='about-section'>
         <AboutUs />
       </Section>
-      <Section header='hình ảnh sản phẩm và quy trình sản xuất' id="gallery-section">
+      <Section header='hình ảnh về sản phẩm' id="gallery-section">
         <Gallery />
       </Section>
-      <Section header='các món ngon chế biến từ miến dong' id="food-section">
+      <Section header='món ngon từ miến dong' id="food-section">
         <Food />
       </Section>
       <Section header='liên hệ với chúng tôi' id="contact-section">
