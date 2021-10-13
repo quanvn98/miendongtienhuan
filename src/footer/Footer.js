@@ -5,7 +5,7 @@ export function Footer() {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-sm-6">
             <div className="footer-header">
               <span>liên hệ</span>
             </div>
@@ -26,11 +26,11 @@ export function Footer() {
               <p className="m-0">Website: miendongtienhuan.com</p>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-sm-6 map">
             <div className="footer-header">
               <span>bản đồ</span>
             </div>
-            <iframe title="miendongtienhuan" width="600" height="450" style={{ border: 0, width: '100%', height: 300 }} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ____T-RPNDERvzP1vPLLp28&key=AIzaSyCRbh3BEu61PgeCHemwFZgDfnPwmILN9cE"></iframe>
+            <iframe title="miendongtienhuan" width="600" height="450" style={{ border: 0, width: '100%', height: 300, display: 'block' }} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ____T-RPNDERvzP1vPLLp28&key=AIzaSyCRbh3BEu61PgeCHemwFZgDfnPwmILN9cE"></iframe>
           </div>
         </div>
       </div>
