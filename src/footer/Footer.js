@@ -15,7 +15,7 @@ export function Footer() {
             </div>
             <div className="d-flex align-items-center">
               <i className="fas fa-tty me-1"></i>
-              <p className="m-0">Điện thoại: 0355111616</p>
+              <p className="m-0">Điện thoại: 0355 111 616</p>
             </div>
             <div className="d-flex align-items-center">
               <i className="fas fa-envelope-open-text me-1"></i>
