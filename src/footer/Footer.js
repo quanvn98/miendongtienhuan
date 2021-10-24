@@ -15,22 +15,22 @@ export function Footer() {
             </div>
             <div className="d-flex align-items-center">
               <i className="fas fa-tty me-1"></i>
-              <p className="m-0">Điện thoại: 0355 111 616</p>
+              <p className="m-0">Điện thoại, Zalo: 0865 482 092</p>
             </div>
             <div className="d-flex align-items-center">
               <i className="fas fa-envelope-open-text me-1"></i>
-              <p className="m-0">Email: quanvuongngoc98@gmail.com</p>
+              <p className="m-0">Email: nguyentienhuan0612@gmail.com</p>
             </div>
             <div className="d-flex align-items-center">
               <i className="fas fa-globe me-1"></i>
-              <p className="m-0">Website: miendongtienhuan.com</p>
+              <p className="m-0">Website: tongkhomiendonglangso.com</p>
             </div>
           </div>
           <div className="col-12 col-sm-6 map">
             <div className="footer-header">
               <span>bản đồ</span>
             </div>
-            <iframe title="miendongtienhuan" width="600" height="450" style={{ border: 0, width: '100%', height: 300, display: 'block' }} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ____T-RPNDERvzP1vPLLp28&key=AIzaSyCRbh3BEu61PgeCHemwFZgDfnPwmILN9cE"></iframe>
+            <iframe title="miendongtienhuan" width="600" height="450" style={{ border: 0, width: '100%', height: 300, display: 'block' }} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH2iC0ZtRNDERV3Nx0-E3OPk&key=AIzaSyCRbh3BEu61PgeCHemwFZgDfnPwmILN9cE"></iframe>
           </div>
         </div>
       </div>
