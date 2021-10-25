@@ -38,7 +38,9 @@
 }
 
 .header-2 .logo {
-  width: 225px;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
 }
 
 .header-2 .p1 {
