@@ -18,12 +18,12 @@ export function Header1() {
               <i className="fab fa-facebook-f"></i>
             </a>
           </div>
-          <div className="header-icon">
+          {/* <div className="header-icon">
             <i className="fab fa-google"></i>
-          </div>
-          <div className="header-icon">
+          </div> */}
+          {/* <div className="header-icon">
             <i className="fab fa-twitter"></i>
-          </div>
+          </div> */}
           <div className="header-icon">
             <i className="fab fa-youtube"></i>
           </div>
