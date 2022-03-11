@@ -30,7 +30,7 @@ export function Footer() {
             <div className="footer-header">
               <span>bản đồ</span>
             </div>
-            <iframe title="miendongtienhuan" width="600" height="450" style={{ border: 0, width: '100%', height: 300, display: 'block' }} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH2iC0ZtRNDERV3Nx0-E3OPk&key=AIzaSyCRbh3BEu61PgeCHemwFZgDfnPwmILN9cE"></iframe>
+            <iframe title="miendongtienhuan" width="600" height="450" style={{ border: 0, width: '100%', height: 300, display: 'block' }} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJH2iC0ZtRNDERV3Nx0-E3OPk&key=GoogleMapKey"></iframe>
           </div>
         </div>
       </div>
